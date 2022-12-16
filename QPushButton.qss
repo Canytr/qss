@@ -1,0 +1,29 @@
+QPushButton {
+   background-color: rgb(240, 240, 240);
+   border: 2px solid gray;
+   border-radius: 10px;
+   font-size: 18px;
+   min-width: 80px;
+   min-height: 30px;
+   color: black;
+}
+
+QPushButton:hover {
+   background-color: rgb(230, 230, 230);
+}
+
+QPushButton:pressed {
+   background-color: rgb(220, 220, 220);
+}
+
+QPushButton:disabled {
+   background-color: rgb(200, 200, 200);
+   color: rgb(150, 150, 150);
+}
+
+/*
+This will style the QPushButton with a light gray background color, a 2px solid gray border, rounded corners, and a black text color. 
+When the button is hovered over by the mouse, the background color will become slightly lighter. 
+When the button is pressed, the background color will become even lighter. 
+When the button is disabled, the background color will become even lighter and the text color will become slightly grayer.
+*/
