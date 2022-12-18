@@ -1,0 +1,21 @@
+QPlainTextEdit {
+    background-color: white;
+    color: black;
+    font-size: 12pt;
+}
+
+QPlainTextEdit:focus {
+    background-color: lightgray;
+}
+
+QPlainTextEdit::selection {
+    background-color: lightblue;
+    color: white;
+}
+
+
+/* 
+This will set the background color of the QPlainTextEdit widget to white, the text color to black, and the font size to 12pt.
+When the QPlainTextEdit widget has focus, the background color will change to light gray.
+hen text is selected, the selection will have a light blue background and white text.
+*/
