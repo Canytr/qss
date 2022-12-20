@@ -1,0 +1,13 @@
+QLabel{
+        background-color: yellow;
+        font-family: Arial;
+        font-size: 20pt;
+        font-weight: bold;
+        qproperty-alignment: AlignCenter;
+}
+
+/*
+This will create a QLabel widget with a yellow background, 
+Arial font, font size of 20 points, and bold text. 
+The text will also be centered within the widget.
+*/
