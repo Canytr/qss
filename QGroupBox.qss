@@ -10,6 +10,7 @@ QGroupBox::title {
   padding: 0 3px;
 }
 
+
 /*
 This will give your QGroupBox a gray border with rounded corners and a top margin.
 The title of the group box will be centered at the top of the group box with a small amount of padding on either side.
