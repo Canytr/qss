@@ -1,3 +1,10 @@
-QCheckBox {
+QCheckBox 
+{
   border: 1px solid gray;
 }
+
+QCheckBox::indicator 
+{  
+  width:13px; 
+  height:13px; 
+} 
