@@ -13,3 +13,13 @@ QCheckBox::indicator:unchecked
 { 
   border-image:url(:/example.png); 
 } 
+
+QCheckBox::indicator:unchecked:hover 
+{ 
+  border-image:url(:/example.png); 
+} 
+
+QCheckBox::indicator:unchecked:pressed 
+{ 
+  border-image:url(:/example.png); 
+}
