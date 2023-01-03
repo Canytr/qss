@@ -9,6 +9,31 @@ QCheckBox::indicator
   height:13px; 
 }
 
+QCheckBox::indicator:checked 
+{ 
+  border-image:url(:/example.png); 
+} 
+
+QCheckBox::indicator:checked:hover 
+{ 
+  image:url(:/example.bmp); 
+} 
+
+QCheckBox::indicator:checked:pressed 
+{ 
+  image:url(:/example.bmp); 
+} 
+
+QCheckBox::indicator:indeterminate:hover 
+{ 
+  image:url(:/example.bmp); 
+} 
+
+QCheckBox::indicator:indeterminate:pressed 
+{ 
+  image:url(:/example.bmp); 
+} 
+
 QCheckBox::indicator:unchecked 
 { 
   border-image:url(:/example.png); 
@@ -23,3 +48,4 @@ QCheckBox::indicator:unchecked:pressed
 { 
   border-image:url(:/example.png); 
 }
+
