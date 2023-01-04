@@ -7,3 +7,22 @@ border-radius: 8px;
 width:50px;
 
 }
+
+/*This will set the color of the LCD digits to blue, the background color to black, 
+and add a gray border around the widget.*/
+
+QLCDNumber 
+{
+    color: blue;
+    background-color: black;
+    border: 1px solid gray;
+}
+
+/*This will set the LCD digits to be drawn with a space between each segment, giving a "dotted" appearance.
+Other possible values for digit-style include flat (the default), shadow, and gradient.*/
+
+QLCDNumber 
+{
+    digit-style: space;
+}
+
