@@ -1,0 +1,17 @@
+QDial 
+{
+    background-color: #ddd;
+    border: 1px solid #999;
+}
+
+QDial::handle 
+{
+    background-color: #fff;
+    border: 1px solid #999;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+}
+
+/*This example styles the background color of the QDial to a light gray color and adds a 1 pixel solid gray border.
+It also styles the handle of the QDial, giving it a white background, a 1 pixel solid gray border, and rounded corners.*/
