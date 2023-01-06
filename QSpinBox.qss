@@ -1,0 +1,39 @@
+QSpinBox 
+{
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+QSpinBox::up-button 
+{
+    subcontrol-origin: border;
+    subcontrol-position: top right;
+    width: 14px;
+    border-left: 1px solid gray;
+    border-top-right-radius: 3px;
+}
+
+QSpinBox::down-button 
+{
+    subcontrol-origin: border;
+    subcontrol-position: bottom right;
+    width: 14px;
+    border-left: 1px solid gray;
+    border-bottom-right-radius: 3px;
+}
+
+QSpinBox::up-arrow 
+{
+    image: url(:/example.png);
+}
+
+QSpinBox::down-arrow 
+{
+    image: url(:/example.png);
+}
+
+/*This style sheet sets the background color of the spin box to white,
+adds a gray border with rounded corners, and customizes the appearance
+of the up and down buttons by setting their width, border, and border radius.
+It also sets custom images for the up and down arrows.*/
