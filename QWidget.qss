@@ -1,5 +1,5 @@
 QWidget#objectname
 {
    color: red;
-
+   font-style: italic;
 }
