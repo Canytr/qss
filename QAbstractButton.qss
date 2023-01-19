@@ -1,0 +1,5 @@
+QAbstractButton
+{
+  color: red;
+}
+//add pressed and checked
