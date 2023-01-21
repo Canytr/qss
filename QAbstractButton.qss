@@ -2,4 +2,13 @@ QAbstractButton
 {
   color: red;
 }
-//add pressed and checked
+
+QAbstractButton:hover
+{
+  color: green;
+}
+
+QAbstractButton:pressed
+{
+  color: blue;
+}
