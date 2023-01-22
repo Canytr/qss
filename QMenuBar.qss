@@ -1,0 +1,26 @@
+QMenuBar 
+{
+    color: #ffffff;
+    background-color: black;
+}
+
+QMenuBar::item 
+{
+    background-color: black;
+}
+
+QMenuBar::item:selected 
+{
+    color: #ffffff;
+    border: 1px solid green;
+    background-color: black;
+}
+
+QMenuBar::item:pressed 
+{
+    color: #ffffff;
+    border: 1px solid green;
+    background-color: black;
+    margin-bottom:-1px;
+    padding-bottom:1px;
+}
