@@ -1,0 +1,59 @@
+QMenu 
+{
+    color: #ffffff;
+    background-color: black;
+    margin: 2px;
+    border: 1px solid green;
+}
+
+QMenu::icon 
+{
+    margin: 5px;
+    border-style: none;
+}
+
+QMenu::right-arrow 
+{
+    image:url(example.png);
+}
+
+QMenu::item 
+{
+    color: #ffffff;
+    background-color: black;
+    padding: 2px 30px 2px 30px;
+    border: 1px solid black; 
+}
+
+QMenu::item:selected 
+{
+    color: #ffffff;
+    background-color: black;
+}
+
+QMenu::separator 
+{
+    height: 1px;
+    background-color: black;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+QMenu::indicator:non-exclusive 
+{
+    color: #ffffff;
+    background-color: black;
+    border: 1px solid green;
+    width: 11px;
+    height: 11px;
+    border-radius:2px;
+}
+
+QMenu::indicator:non-exclusive:checked 
+{
+    background-color: black;
+    border: 1px solid green;
+    image:url(example.png);
+}
