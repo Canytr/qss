@@ -1,0 +1,7 @@
+QStackedWidget 
+{
+    background-color: black;
+    border: 2px green;
+}
+
+//add more feature
