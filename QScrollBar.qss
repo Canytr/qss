@@ -1,0 +1,15 @@
+QScrollBar:horizontal 
+{
+    height: 15px;
+    margin: 3px 15px 3px 15px;
+    border: 1px transparent;
+    border-radius: 4px;
+    background-color: black;
+}
+
+QScrollBar::handle:horizontal 
+{
+    background-color: #b6b6b6;
+    min-width: 5px;
+    border-radius: 4px;
+}
